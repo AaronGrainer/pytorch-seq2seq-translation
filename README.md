@@ -18,17 +18,15 @@ matplotlib
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+1. Download language data from [here](https://download.pytorch.org/tutorial/data.zip) and place them in current directory. 
 
-Download language data from [here](https://download.pytorch.org/tutorial/data.zip) and place them in current directory. 
-
-Create new virtual environment (recommended)
+2. Create new virtual environment (recommended)
 
 ```
 conda create -n seq2seq2-pytorch python=3.6
 ```
 
-Install required python packages
+3. Install required python packages
 
 ```
 pip install -r requirements.txt
