@@ -48,3 +48,25 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * The Pytorch Team
+
+## Future Additions
+
+1. Try with a different dataset
+
+    * Another language pair
+
+    * Human → Machine (e.g. IOT commands)
+
+    * Chat → Response
+
+    * Question → Answer
+
+2. Replace the embeddings with pre-trained word embeddings such as word2vec or GloVe
+
+3. Try with more layers, more hidden units, and more sentences. Compare the training time and results.
+
+4. If you use a translation file where pairs have two of the same phrase (I am test \t I am test), you can use this as an autoencoder. Try this:
+
+    * Train as an autoencoder
+    * Save only the Encoder network
+    * Train a new Decoder for translation from there
