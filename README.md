@@ -8,13 +8,11 @@ A simple example on implementing a seq2seq attention-based encoder-decoder netwo
 
 The program requires the following dependencies.  
 
-```
-python 3.6
-pytorch
-numpy
-CUDA (for using GPU)
-matplotlib
-```
+
+* python 3.6
+* pytorch
+* CUDA (for using GPU)
+
 
 ### Installing
 
